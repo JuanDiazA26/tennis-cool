@@ -113,5 +113,5 @@ partidos |>
 dir.create("data/processed", showWarnings = FALSE, recursive = TRUE)
 write_rds(partidos, "data/processed/partidos.rds")
 
-partidos <- readr::read_rds("data/processed/partidos.rds")
-View(partidos)
+partidos_ori <- readr::read_rds("data/processed/partidos.rds")
+View(partidos_ori)

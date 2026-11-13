@@ -1,0 +1,27 @@
+conjunto,modelo,partidos,metrica,valor,mejor_si
+Test 2024-2025,Baseline: ranking,5281,Accuracy,0.6436281007384965,Más alto
+Test 2024-2025,Baseline: Elo,5281,Accuracy,0.641734519977277,Más alto
+Test 2024-2025,Baseline: Elo,5281,AUC,0.7093013015252839,Más alto
+Test 2024-2025,Baseline: Elo,5281,Brier score,0.2175201736542076,Más bajo
+Test 2024-2025,Baseline: Elo,5281,Log loss,0.6233319763074604,Más bajo
+Test 2024-2025,Regresión logística,5281,Accuracy,0.6534747206968378,Más alto
+Test 2024-2025,Regresión logística,5281,AUC,0.720795287313788,Más alto
+Test 2024-2025,Regresión logística,5281,Brier score,0.21226466324030369,Más bajo
+Test 2024-2025,Regresión logística,5281,Log loss,0.6106910915235976,Más bajo
+Test 2024-2025,Random forest,5281,Accuracy,0.6426813103578868,Más alto
+Test 2024-2025,Random forest,5281,AUC,0.7075914180228414,Más alto
+Test 2024-2025,Random forest,5281,Brier score,0.21673782996712954,Más bajo
+Test 2024-2025,Random forest,5281,Log loss,0.6216736951821558,Más bajo
+Temporada 2026,Baseline: ranking,1278,Accuracy,0.6463223787167449,Más alto
+Temporada 2026,Baseline: Elo,1278,Accuracy,0.6580594679186228,Más alto
+Temporada 2026,Baseline: Elo,1278,AUC,0.7160171166691562,Más alto
+Temporada 2026,Baseline: Elo,1278,Brier score,0.21589101940318955,Más bajo
+Temporada 2026,Baseline: Elo,1278,Log loss,0.6221916147582041,Más bajo
+Temporada 2026,Regresión logística,1278,Accuracy,0.6690140845070423,Más alto
+Temporada 2026,Regresión logística,1278,AUC,0.7340376282586719,Más alto
+Temporada 2026,Regresión logística,1278,Brier score,0.20862609087717415,Más bajo
+Temporada 2026,Regresión logística,1278,Log loss,0.6040876879267215,Más bajo
+Temporada 2026,Random forest,1278,Accuracy,0.662754303599374,Más alto
+Temporada 2026,Random forest,1278,AUC,0.7333640329498327,Más alto
+Temporada 2026,Random forest,1278,Brier score,0.20898177321358216,Más bajo
+Temporada 2026,Random forest,1278,Log loss,0.6057793848690094,Más bajo

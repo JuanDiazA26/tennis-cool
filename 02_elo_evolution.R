@@ -172,5 +172,8 @@ elo_historial |>
 write_rds(partidos_elo,  "data/processed/partidos_elo.rds")
 write_rds(elo_historial, "data/processed/elo_historial.rds")
 
-partidos <- readr::read_rds("data/processed/elo_historial.rds")
+elo <- readr::read_rds("data/processed/elo_historial.rds")
+View(elo)
+
+partidos <- readr::read_rds("data/processed/partidos_elo.rds")
 View(partidos)

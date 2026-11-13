@@ -1,0 +1,10 @@
+variable,importancia,importancia_rel,variable_nombre
+diff_elo_mix,0.03828740137839575,1,Diferencia de Elo combinado
+diff_elo,0.02594396760137022,0.6776110853010123,Diferencia de Elo general
+diff_elo_sup,0.02256635999380559,0.5893938784401023,Diferencia de Elo en la superficie
+diff_log_rank,0.019045846916098227,0.49744423048896536,Diferencia de ranking
+diff_exp,0.006727506780853837,0.17571071785117115,Diferencia de experiencia
+diff_edad,0.00403343327511825,0.1053462269548065,Diferencia de edad
+diff_altura,0.0011101927397150196,0.02899629381328195,Diferencia de altura
+cinco_sets,7.192407312699738e-4,0.01878531071256814,Partido a 5 sets
+superficie,4.954295221716845e-4,0.012939753139037485,Superficie
