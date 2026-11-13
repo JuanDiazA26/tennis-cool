@@ -25,7 +25,9 @@ dir.create(dir_out, showWarnings = FALSE, recursive = TRUE)
 
 leer <- function(nombre) read_rds(file.path(dir_in, paste0(nombre, ".rds")))
 guardar <- function(df, nombre) {
-  write_csv(df, file.path(dir_out, paste0(nombre, ".csv")), na = "")
+  # Formato europeo: separador ";" y decimales con ","
+  # (así Tableau en español detecta bien columnas y números)
+  write_csv2(df, file.path(dir_out, paste0(nombre, ".csv")), na = "")
   cat(sprintf("%-28s %7d filas\n", paste0(nombre, ".csv"), nrow(df)))
 }
 
